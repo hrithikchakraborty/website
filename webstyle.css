@@ -1,0 +1,94 @@
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+
+li{
+    list-style: none;    
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-right: 3rem;
+}
+
+.footer{
+
+    background-color: black;
+    color: white;
+    font-size: x-large;
+    text-align: center;
+    padding: 5px;
+        
+}
+
+.footer>p{
+
+        margin: 5px;
+}
+
+h1{
+
+    font-size: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 1rem;
+
+}
+
+h1:hover{
+    cursor: pointer;
+}
+
+a{
+
+    text-decoration: none;
+    color: black;
+    font-size: 30px;
+    
+}
+a:hover{
+    color: red; 
+    
+    transition: 0.3s;  
+
+}
+nav, ul{
+    
+    display: flex;
+    justify-content: space-between;
+    margin: 1rem;
+}
+
+nav{
+    padding: 10px;
+    border: 2px solid black;
+}
+
+ul{
+        display: flex;
+}
+#displayimage{
+
+    height: 100vh;
+    width: 95vw;
+    display: block;
+    margin: auto;
+    padding: 10px;
+    border: 2px solid black;
+}
+
+.content{
+
+        display: flex;
+        text-align: center;
+        font-size: 25px;
+        margin: 3rem;
+        border: 2px solid black;
+        padding: 2rem;
+        
+        
+}
+
+.a{
+
+    text-align: justify;
+    margin: 1rem;
+}
